@@ -4,12 +4,12 @@ import './App.css';
 
 function App() {
   const staticSongs = [
+    { name: "Tum Ho", link: "https://www.youtube.com/watch?v=gkCKTuR-ECI" },
+    { name: "Kudi Kon Nachdi", link: "https://www.youtube.com/watch?v=NbWKYgaWzbI" },
     { name: "Tum Hi Ho", link: "https://www.youtube.com/watch?v=Umqb9KENgmk" },
     { name: "Ranjhan", link: "https://www.youtube.com/watch?v=5AQ5Nz3WMlY" },
     { name: "Piya O Re Piya", link: "https://www.youtube.com/watch?v=u-FaTNxrWhw" },
-    { name: "Channa Mereya", link: "https://www.youtube.com/watch?v=bzSTpdcs-EI" },
-    { name: "Kudi Kon Nachdi", link: "https://www.youtube.com/watch?v=NbWKYgaWzbI" },
-    { name: "Tum Ho", link: "https://www.youtube.com/watch?v=gkCKTuR-ECI" }
+    { name: "Channa Mereya", link: "https://www.youtube.com/watch?v=bzSTpdcs-EI" }, 
   ];
 
   const [mode, setMode] = useState("static"); // static, single, multiple
