@@ -1,0 +1,73 @@
+/* Full page container */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  /* Content of the page */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Video Info (Thumbnail & Title) */
+  .video-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Positioning the audio player at the bottom with full width */
+  .audio-player-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Play/Pause button styling */
+  .play-pause-btn, .next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3b9e9e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    width: 60%;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Volume control */
+  .volume-bar {
+    width: 20%;
+  }
+  
