@@ -1,12 +1,57 @@
-# React + Vite
+# 🎵 YT MP3 Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern YouTube MP3 player built with **React** and **Vite**. This project allows you to play audio from YouTube videos in a clean, distraction-free interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+<!-- - 🔎 Search for YouTube videos by keyword -->
+- ▶️ Stream audio directly from YouTube videos
+- 🎧 Minimal and intuitive user interface
+- ⚡ Built with React + Vite for fast performance and hot module reloading
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or above recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+git clone https://github.com/suthar-suresh/yt-mp3-player.git
+cd yt-mp3-player
+
+
+2. **Install dependencies:**
+npm install
+or
+yarn install
+
+
+3. **Start the development server:**
+npm run dev
+or
+yarn dev
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+
+## 📦 Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+---
+
+> Made with ❤️ by [Suresh Suthar](https://github.com/suthar-suresh)
