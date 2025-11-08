@@ -45,6 +45,7 @@ yarn dev
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [Tailwindcss](https://tailwindcss.com/)
 
 ---
 
