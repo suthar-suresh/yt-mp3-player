@@ -17,7 +17,7 @@ const staticSongLinks = [
   "https://www.youtube.com/watch?v=gkCKTuR-ECI",
   "https://www.youtube.com/watch?v=NbWKYgaWzbI",
   "https://www.youtube.com/watch?v=Umqb9KENgmk",
-  "https://www.youtube.com/watch?v=5AQ5Nz3WMlY",
+  "https://youtu.be/YyepU5ztLf4?si=v9C4TAdtGROiYVsL",
   "https://www.youtube.com/watch?v=u-FaTNxrWhw",
   "https://www.youtube.com/watch?v=bzSTpdcs-EI",
 ];
