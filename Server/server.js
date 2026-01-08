@@ -12,6 +12,6 @@ connectDB();
 app.use("/auth", authRoutes);
 app.use("/songs", songRoutes);
 
-app.listen(process.env.PORT, () =>
-  console.log(`Server running on ${process.env.PORT}`)
-);
+export default function handler(req, res) {
+  res.json({ ok: true });
+}
